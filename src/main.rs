@@ -53,7 +53,7 @@ macro_rules! decl_puzzles {
     };
 }
 
-decl_puzzles![1, 2, 3, 4,];
+decl_puzzles![1, 2, 3, 4, 5, 6,];
 
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
